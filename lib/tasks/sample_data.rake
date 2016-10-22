@@ -1,5 +1,5 @@
 namespace :db do
-  desc "Fill ome Fa atabase with sample data"
+  desc "Fill ome FA database with sample data"
   task :populate => :environment do
     Rake::Task['db:reset'].invoke
     make_users
